@@ -13,6 +13,7 @@
 		435BBF321FDBA04100552DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435BBF311FDBA04100552DA0 /* Assets.xcassets */; };
 		435BBF351FDBA04100552DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435BBF331FDBA04100552DA0 /* LaunchScreen.storyboard */; };
 		435BBF3D1FDBA19A00552DA0 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BBF3C1FDBA19A00552DA0 /* UIButtonExt.swift */; };
+		435BBF3F1FDBADD500552DA0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BBF3E1FDBADD500552DA0 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		435BBF341FDBA04100552DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		435BBF361FDBA04100552DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		435BBF3C1FDBA19A00552DA0 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		435BBF3E1FDBADD500552DA0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				435BBF2A1FDBA04100552DA0 /* AppDelegate.swift */,
 				435BBF2C1FDBA04100552DA0 /* ViewController.swift */,
+				435BBF3E1FDBADD500552DA0 /* Helpers.swift */,
 				435BBF3C1FDBA19A00552DA0 /* UIButtonExt.swift */,
 				435BBF2E1FDBA04100552DA0 /* Main.storyboard */,
 				435BBF311FDBA04100552DA0 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				435BBF2D1FDBA04100552DA0 /* ViewController.swift in Sources */,
 				435BBF3D1FDBA19A00552DA0 /* UIButtonExt.swift in Sources */,
 				435BBF2B1FDBA04100552DA0 /* AppDelegate.swift in Sources */,
+				435BBF3F1FDBADD500552DA0 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

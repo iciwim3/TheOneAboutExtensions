@@ -24,11 +24,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func colorizeButtonTapped(_ sender: Any) {
+        colorizeButton.colorize()
     }
     
     @IBAction func wiggleButtonTapped(_ sender: Any) {
+        wiggleButton.wiggle()
     }
     @IBAction func dimButtonTapped(_ sender: Any) {
+        dimButton.dim()
     }
     
 }
