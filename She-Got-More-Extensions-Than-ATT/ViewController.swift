@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var colorizeButton: UIButton!
+    @IBOutlet weak var wiggleButton: UIButton!
+    @IBOutlet weak var dimButton: UIButton!
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +23,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    @IBAction func colorizeButtonTapped(_ sender: Any) {
+    }
+    
+    @IBAction func wiggleButtonTapped(_ sender: Any) {
+    }
+    @IBAction func dimButtonTapped(_ sender: Any) {
+    }
+    
 }
 
